@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.list-group {
+    max-height: calc(100vh - 200px); /* Ajuste o valor conforme necessário */
+    overflow-y: auto;
+}
